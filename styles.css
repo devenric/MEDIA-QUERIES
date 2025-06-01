@@ -7,12 +7,17 @@
     font-size: 30px;
     content: "Modo Vertical";}
 }
+h1::after{
+        content: "Modo Horizontal";
+}
 @media (orientation: landscape) {
   body {
     background-color: blue;
   }
   h1{
     color: white;
-    font-size: 30px;
-    content: "Modo Horizontal";}
+    font-size: 30px;}
+}
+h1::after{
+        content: "Modo Horizontal";
 }
